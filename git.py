@@ -14,10 +14,6 @@ def decode_password(d_password):
 
 
 
-print(encode_password("12345555"))
-print((decode_password("4567888")))
-
-
 def main():
     password = input("Please input your password: ")
     while True:
