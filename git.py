@@ -40,7 +40,7 @@ def decode_password(password):
             decoded += str(a)
     return decoded
 
-print(encode_password("12345666"))
+# print(encode_password("12345666"))
 
 
 def main():
