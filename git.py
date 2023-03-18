@@ -51,7 +51,7 @@ def main():
 
         if option == 1:
             theta = str(input("Please enter your password to encode: "))
-            # added str to this - travis
+            # added str to this - travis s
             alpha = encode_password(theta)
             print("Your password has been encoded and stored!")
         elif option == 2:
