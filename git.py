@@ -4,11 +4,11 @@ def encode_password(password):
     alpha = ""
     theta = password
     for i in theta:
-        if i in range(1, 7):
+        if int(i) in range(1, 7):
             theta = str(int(i) + 3)
             alpha += theta
 
-        if int(i) >= 7:
+        elif int(i) >= 7:
             if i == '7':
                 theta = '0'
                 alpha += theta
@@ -21,7 +21,7 @@ def encode_password(password):
 
     return alpha
 
-# Test case #1 print(encode_password("999999")) returns 222222
+print(encode_password("12345666"))
 
 
 def main():
